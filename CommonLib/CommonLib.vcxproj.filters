@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="CommonLib.h" />
+    <ClInclude Include="Diagnostics.h">
+      <Filter>Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugInfo.h">
+      <Filter>Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorMessage.h">
+      <Filter>Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryChecker.h">
+      <Filter>Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageWriter.h">
+      <Filter>Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>Diagnostics</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Io\File</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>Io\File</Filter>
+    </ClInclude>
+    <ClInclude Include="IRequestable.h">
+      <Filter>Io\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestHandler.h">
+      <Filter>Io\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedHeap.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableHeap.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionListener.h">
+      <Filter>Network\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="Transfer.h">
+      <Filter>Network\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferPool.h">
+      <Filter>Network\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Network\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Network\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncTransfer.h">
+      <Filter>Network\Sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="Firewall.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="SRWLock.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonMutableDictionary.h">
+      <Filter>Utility\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonMutableArray.h">
+      <Filter>Utility\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonDictionary.h">
+      <Filter>Utility\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonArray.h">
+      <Filter>Utility\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="uPnP.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="DebugInfo.cpp">
+      <Filter>Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorMessage.cpp">
+      <Filter>Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageWriter.cpp">
+      <Filter>Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Io\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>Io\File</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestHandler.cpp">
+      <Filter>Io\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedHeap.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableHeap.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionListener.cpp">
+      <Filter>Network\Async</Filter>
+    </ClCompile>
+    <ClCompile Include="Transfer.cpp">
+      <Filter>Network\Async</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Network\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Network\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncTransfer.cpp">
+      <Filter>Network\Sync</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="Firewall.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="SRWLock.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonMutableDictionary.cpp">
+      <Filter>Utility\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonMutableArray.cpp">
+      <Filter>Utility\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonDictionary.cpp">
+      <Filter>Utility\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonArray.cpp">
+      <Filter>Utility\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UPnP.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Diagnostics">
+      <UniqueIdentifier>{37a2bb5e-77cd-4dce-828d-fb0dd821ed56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{14a890d7-353f-4272-a667-028ea59c5a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Io">
+      <UniqueIdentifier>{1ed5b1b5-53c4-406f-94f2-9b50b09d5130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Io\File">
+      <UniqueIdentifier>{f6dd557f-1db7-46c3-bea5-fed48c5d1f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Io\Iocp">
+      <UniqueIdentifier>{7552d60c-6d4b-4716-8ebb-54c21c1b8e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{91c9ef8b-60bb-456b-b892-53ddb0aae2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{a6dbcb1a-77b8-45f4-a5c1-b43268018eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Async">
+      <UniqueIdentifier>{93b023ee-c38a-40dd-8977-67f8c9422627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Sync">
+      <UniqueIdentifier>{1e0c9ceb-3b52-49d6-8a28-09cbbf899c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{79dce005-f6ef-4785-9adc-72ee6a5be3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{41259b6f-1f0f-4712-9ad5-67a4ae54e323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{a760d5f4-13f9-4d54-a62f-a6be1c29c0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{442ddf69-17d7-4bcb-88f5-9e7fe30d87e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Json">
+      <UniqueIdentifier>{39d07d61-20d6-4cc5-a55e-b3d30694448f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

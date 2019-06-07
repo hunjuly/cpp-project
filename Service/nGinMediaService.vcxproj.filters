@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="ConsoleLinker.h" />
+    <ClInclude Include="ProcessPool.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="FFMpeg.h">
+      <Filter>FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="FFMpegCommand.h">
+      <Filter>FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="FFMpegQualityOption.h">
+      <Filter>FFMpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpBuffer.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpReceive.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpResponse.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpTransfer.h">
+      <Filter>Http</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaInformation.h">
+      <Filter>MediaInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioMetadata.h">
+      <Filter>MediaInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterMetadata.h">
+      <Filter>MediaInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieMetadata.h">
+      <Filter>MediaInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="SubtitleMetadata.h">
+      <Filter>MediaInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoMetadata.h">
+      <Filter>MediaInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieEncoding.h">
+      <Filter>Services\MovieEncodingService</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieEncodingList.h">
+      <Filter>Services\MovieEncodingService</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieEncodingService.h">
+      <Filter>Services\MovieEncodingService</Filter>
+    </ClInclude>
+    <ClInclude Include="Segmenter.h">
+      <Filter>Services\VideoStreamingService</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmenterPool.h">
+      <Filter>Services\VideoStreamingService</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoStreamingService.h">
+      <Filter>Services\VideoStreamingService</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSegmenter.h">
+      <Filter>Services\VideoStreamingService</Filter>
+    </ClInclude>
+    <ClInclude Include="IService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceHandler.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemService.h">
+      <Filter>Services\SystemService</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentsInfoService.h">
+      <Filter>Services\ContentsInfoService</Filter>
+    </ClInclude>
+    <ClInclude Include="readme.h">
+      <Filter>FFMpeg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="ConsoleLinker.cpp" />
+    <ClCompile Include="nGinMediaService.cpp" />
+    <ClCompile Include="ProcessPool.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="FFMpeg.cpp">
+      <Filter>FFMpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="FFMpegCommand.cpp">
+      <Filter>FFMpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="FFMpegQualityOption.cpp">
+      <Filter>FFMpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpBuffer.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpReceive.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpResponse.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpTransfer.cpp">
+      <Filter>Http</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaInformation.cpp">
+      <Filter>MediaInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMetadata.cpp">
+      <Filter>MediaInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterMetadata.cpp">
+      <Filter>MediaInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieMetadata.cpp">
+      <Filter>MediaInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="SubtitleMetadata.cpp">
+      <Filter>MediaInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoMetadata.cpp">
+      <Filter>MediaInformation</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieEncoding.cpp">
+      <Filter>Services\MovieEncodingService</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieEncodingList.cpp">
+      <Filter>Services\MovieEncodingService</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieEncodingService.cpp">
+      <Filter>Services\MovieEncodingService</Filter>
+    </ClCompile>
+    <ClCompile Include="Segmenter.cpp">
+      <Filter>Services\VideoStreamingService</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmenterPool.cpp">
+      <Filter>Services\VideoStreamingService</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoStreamingService.cpp">
+      <Filter>Services\VideoStreamingService</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSegmenter.cpp">
+      <Filter>Services\VideoStreamingService</Filter>
+    </ClCompile>
+    <ClCompile Include="IService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceHandler.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemService.cpp">
+      <Filter>Services\SystemService</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentsInfoService.cpp">
+      <Filter>Services\ContentsInfoService</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FFMpeg">
+      <UniqueIdentifier>{bb351558-ece1-4a2d-b85b-5f07f62baadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Http">
+      <UniqueIdentifier>{c2b14d67-aab7-472c-85b0-bd628b4cc86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MediaInformation">
+      <UniqueIdentifier>{6409791e-03de-44f7-b0e3-58f5139246eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{929e1a2f-b77d-41a8-9a69-926269b9116f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\MovieEncodingService">
+      <UniqueIdentifier>{4ee1c285-3234-40b2-b29f-02de64c468d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\VideoStreamingService">
+      <UniqueIdentifier>{afc16745-cdd1-474b-9ae4-7eef5d973d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\SystemService">
+      <UniqueIdentifier>{5f3b9304-9a2f-46ad-b9e8-c5cac6ad8e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\ContentsInfoService">
+      <UniqueIdentifier>{270c265d-3ec7-454e-bb77-d790af3d31d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
